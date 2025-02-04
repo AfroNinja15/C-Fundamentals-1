@@ -22,7 +22,7 @@ namespace C__Fundamentals_1
             Console.WriteLine(sentence1.ToUpper());         // All Caps
             Console.WriteLine(sentence1.ToLower());         // All lower case
             Console.WriteLine(sentence1.Substring(7));      // Starting from 8 starting from 0 - 7
-            Console.WriteLine(sentence1.Substring(7,11));   // only 8-11
+            Console.WriteLine(sentence1.Substring(7,10));   // only 8-11
             Console.WriteLine(sentence1[7]);                // just 8
         }
         private static void Arithmetic()
